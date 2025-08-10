@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator" role="application" aria-label="Calculator">
+    <div class="header">
+      <div class="brand">
+        <div class="logo">
+  <img src="C:\Users\MODY\Desktop\Subject...ICT (2)\Course Front End\calculator\WhatsApp Image 2025-05-05 at 12.54.35_5f042428.jpg" alt="Logo" />
+</div>
+
+        <div class="title">
+          <h1>Calculator</h1>
+          <p>Basic Operations — Modern Design — Mohamed Bendary</p>
+        </div>
+      </div>
+      <div style="text-align:right;">
+        <small>Press buttons or use keyboard</small>
+      </div>
+    </div>
+
+    <div class="display" id="display" aria-live="polite">
+      <div class="expression" id="expression"></div>
+      <div class="result" id="result">0</div>
+    </div>
+
+    <div class="pad" id="pad">
+      <button class="key clear" data-action="clear">C</button>
+      <button class="key" data-action="back">⌫</button>
+      <button class="key operator" data-value="(">(</button>
+      <button class="key operator" data-value=")">)</button>
+
+      <button class="key" data-value="7">7</button>
+      <button class="key" data-value="8">8</button>
+      <button class="key" data-value="9">9</button>
+      <button class="key operator" data-value="/">÷</button>
+
+      <button class="key" data-value="4">4</button>
+      <button class="key" data-value="5">5</button>
+      <button class="key" data-value="6">6</button>
+      <button class="key operator" data-value="*">×</button>
+
+      <button class="key" data-value="1">1</button>
+      <button class="key" data-value="2">2</button>
+      <button class="key" data-value="3">3</button>
+      <button class="key operator" data-value="-">−</button>
+
+      <button class="key" data-value="0">0</button>
+      <button class="key" data-value=".">.</button>
+      <button class="key equal" data-action="equals">=</button>
+      <button class="key operator" data-value="+">+</button>
+    </div>
+
+    <div class="footer">
+      <div>Designed by Mo. Bendary</div>
+      <div id="hint">Status: Ready</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
